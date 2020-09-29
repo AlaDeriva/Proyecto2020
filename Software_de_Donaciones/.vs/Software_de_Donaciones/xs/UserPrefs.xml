@@ -1,4 +1,27 @@
 ﻿<Properties StartupConfiguration="{C8D58F71-FD10-405F-9AFB-769E8DD143B2}|Default">
-  <MonoDevelop.Ide.ItemProperties.Software__de__Donaciones FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Software_de_Donaciones/Perfil,.cs">
+    <Files>
+      <File FileName="Software_de_Donaciones/Program.cs" Line="1" Column="1" />
+      <File FileName="Software_de_Donaciones/Usuario.cs" Line="1" Column="1" />
+      <File FileName="Software_de_Donaciones/Perfil,.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Software_de_Donaciones" expanded="True">
+            <Node name="Software_de_Donaciones" expanded="True">
+              <Node name="Perfil,.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Software__de__Donaciones FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
