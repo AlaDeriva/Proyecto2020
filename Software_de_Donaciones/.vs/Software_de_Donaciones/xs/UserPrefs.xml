@@ -1,26 +1,32 @@
 ﻿<Properties StartupConfiguration="{C8D58F71-FD10-405F-9AFB-769E8DD143B2}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Software_de_Donaciones/UtilesXML.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Software_de_Donaciones/Deposito.cs">
     <Files>
       <File FileName="Software_de_Donaciones/Program.cs" Line="1" Column="1" />
-      <File FileName="Software_de_Donaciones/Usuario.cs" Line="21" Column="13" />
+      <File FileName="Software_de_Donaciones/Usuario.cs" Line="15" Column="9" />
       <File FileName="Software_de_Donaciones/Perfil.cs" Line="6" Column="21" />
-      <File FileName="Software_de_Donaciones/BaseDeDatos.cs" Line="29" Column="9" />
-      <File FileName="Software_de_Donaciones/Consultas.cs" Line="10" Column="13" />
-      <File FileName="Software_de_Donaciones/UtilesXML.cs" Line="84" Column="24" />
+      <File FileName="Software_de_Donaciones/BaseDeDatos.cs" Line="29" Column="1" />
+      <File FileName="Software_de_Donaciones/Consultas.cs" Line="8" Column="16" />
+      <File FileName="Software_de_Donaciones/UtilesXML.cs" Line="82" Column="16" />
+      <File FileName="Software_de_Donaciones/Donacion.cs" Line="1" Column="1" />
+      <File FileName="Software_de_Donaciones/Sesion.cs" Line="1" Column="1" />
+      <File FileName="Software_de_Donaciones/Beneficiario.cs" Line="1" Column="1" />
+      <File FileName="Software_de_Donaciones/Donante.cs" Line="1" Column="1" />
+      <File FileName="Software_de_Donaciones/Deposito.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Software_de_Donaciones" expanded="True">
-            <Node name="Software_de_Donaciones" expanded="True" selected="True">
+            <Node name="Software_de_Donaciones" expanded="True">
               <Node name="References" expanded="True" />
+              <Node name="Deposito.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Software__de__Donaciones FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Software__de__Donaciones PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

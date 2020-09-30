@@ -33,6 +33,11 @@
     <Compile Include="BaseDeDatos.cs" />
     <Compile Include="Consultas.cs" />
     <Compile Include="UtilesXML.cs" />
+    <Compile Include="Donacion.cs" />
+    <Compile Include="Sesion.cs" />
+    <Compile Include="Beneficiario.cs" />
+    <Compile Include="Donante.cs" />
+    <Compile Include="Deposito.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
