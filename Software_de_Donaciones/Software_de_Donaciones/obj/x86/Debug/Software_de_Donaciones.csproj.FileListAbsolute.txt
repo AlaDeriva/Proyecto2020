@@ -1,0 +1,1 @@
+/home/ceibal/Documentos/GitHub/Proyecto2020/Software_de_Donaciones/Software_de_Donaciones/obj/x86/Debug/Software_de_Donaciones.csprojAssemblyReference.cache

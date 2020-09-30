@@ -31,6 +31,8 @@
     <Compile Include="Usuario.cs" />
     <Compile Include="Perfil.cs" />
     <Compile Include="BaseDeDatos.cs" />
+    <Compile Include="Consultas.cs" />
+    <Compile Include="UtilesXML.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -89,6 +91,10 @@
     <Reference Include="System.Management" />
     <Reference Include="System.Transactions" />
     <Reference Include="System.Xml" />
+    <Reference Include="System.Linq">
+      <HintPath>..\packages\System.Linq.4.3.0\lib\net463\System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
