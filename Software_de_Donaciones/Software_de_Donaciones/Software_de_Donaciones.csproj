@@ -33,6 +33,12 @@
     <Compile Include="Inicio.Designer.cs">
       <DependentUpon>Inicio.cs</DependentUpon>
     </Compile>
+    <Compile Include="Menu Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu Principal.Designer.cs">
+      <DependentUpon>Menu Principal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Registro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -50,6 +56,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu Principal.resx">
+      <DependentUpon>Menu Principal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Registro.resx">
       <DependentUpon>Registro.cs</DependentUpon>
