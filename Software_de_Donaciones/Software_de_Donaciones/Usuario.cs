@@ -10,6 +10,9 @@ namespace Software_de_Donaciones
         private string nUsuario = "";
         private string hash = "";
         private string sal = "";
+        private enum cargo { };
+
+
 
         public Usuario()
         {
