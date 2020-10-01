@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Software_de_Donaciones/Deposito.cs">
     <Files>
       <File FileName="Software_de_Donaciones/Program.cs" Line="1" Column="1" />
-      <File FileName="Software_de_Donaciones/Usuario.cs" Line="15" Column="9" />
+      <File FileName="Software_de_Donaciones/Usuario.cs" Line="15" Column="1" />
       <File FileName="Software_de_Donaciones/Perfil.cs" Line="6" Column="21" />
       <File FileName="Software_de_Donaciones/BaseDeDatos.cs" Line="29" Column="1" />
       <File FileName="Software_de_Donaciones/Consultas.cs" Line="8" Column="16" />
