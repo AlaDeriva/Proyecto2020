@@ -1,12 +1,1 @@
-<<<<<<< HEAD
 /home/ceibal/Documentos/GitHub/Proyecto2020/Software_de_Donaciones/Software_de_Donaciones/obj/x86/Debug/Software_de_Donaciones.csprojAssemblyReference.cache
-=======
-C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\obj\x86\Debug\Software_de_Donaciones.csprojAssemblyReference.cache
-C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\obj\x86\Debug\Software_de_Donaciones.Inicio.resources
-C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\obj\x86\Debug\Software_de_Donaciones.Menu_Principal.resources
-C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\obj\x86\Debug\Software_de_Donaciones.Registro.resources
-C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\obj\x86\Debug\Software_de_Donaciones.Regristro_de_Usuario_de_la_Empresa.resources
-C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\obj\x86\Debug\Software_de_Donaciones.Ventana_de_Donaciones.resources
-C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\obj\x86\Debug\Software_de_Donaciones.csproj.GenerateResource.cache
-C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\obj\x86\Debug\Software_de_Donaciones.csproj.CoreCompileInputs.cache
->>>>>>> origin/Interface
