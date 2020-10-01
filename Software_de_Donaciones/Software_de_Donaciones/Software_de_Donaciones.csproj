@@ -27,40 +27,40 @@
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Inicio.cs">
+    <Compile Include="Ventanas\Inicio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Inicio.Designer.cs">
+    <Compile Include="Ventanas\Inicio.Designer.cs">
       <DependentUpon>Inicio.cs</DependentUpon>
     </Compile>
-    <Compile Include="Lista de Subordinados.cs">
+    <Compile Include="Ventanas\Lista de Subordinados.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Lista de Subordinados.Designer.cs">
+    <Compile Include="Ventanas\Lista de Subordinados.Designer.cs">
       <DependentUpon>Lista de Subordinados.cs</DependentUpon>
     </Compile>
-    <Compile Include="Menu Principal.cs">
+    <Compile Include="Ventanas\Menu Principal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Menu Principal.Designer.cs">
+    <Compile Include="Ventanas\Menu Principal.Designer.cs">
       <DependentUpon>Menu Principal.cs</DependentUpon>
     </Compile>
-    <Compile Include="Registro.cs">
+    <Compile Include="Ventanas\Registro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Registro.Designer.cs">
+    <Compile Include="Ventanas\Registro.Designer.cs">
       <DependentUpon>Registro.cs</DependentUpon>
     </Compile>
-    <Compile Include="Regristro de Usuario de la Empresa.cs">
+    <Compile Include="Ventanas\Regristro de Usuario de la Empresa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Regristro de Usuario de la Empresa.Designer.cs">
+    <Compile Include="Ventanas\Regristro de Usuario de la Empresa.Designer.cs">
       <DependentUpon>Regristro de Usuario de la Empresa.cs</DependentUpon>
     </Compile>
-    <Compile Include="Ventana de Donaciones.cs">
+    <Compile Include="Ventanas\Ventana de Donaciones.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Ventana de Donaciones.Designer.cs">
+    <Compile Include="Ventanas\Ventana de Donaciones.Designer.cs">
       <DependentUpon>Ventana de Donaciones.cs</DependentUpon>
     </Compile>
   </ItemGroup>
@@ -72,22 +72,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Inicio.resx">
+    <EmbeddedResource Include="Ventanas\Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Lista de Subordinados.resx">
+    <EmbeddedResource Include="Ventanas\Lista de Subordinados.resx">
       <DependentUpon>Lista de Subordinados.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Menu Principal.resx">
+    <EmbeddedResource Include="Ventanas\Menu Principal.resx">
       <DependentUpon>Menu Principal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Registro.resx">
+    <EmbeddedResource Include="Ventanas\Registro.resx">
       <DependentUpon>Registro.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Regristro de Usuario de la Empresa.resx">
+    <EmbeddedResource Include="Ventanas\Regristro de Usuario de la Empresa.resx">
       <DependentUpon>Regristro de Usuario de la Empresa.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Ventana de Donaciones.resx">
+    <EmbeddedResource Include="Ventanas\Ventana de Donaciones.resx">
       <DependentUpon>Ventana de Donaciones.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
