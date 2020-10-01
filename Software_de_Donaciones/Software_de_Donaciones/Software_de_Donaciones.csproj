@@ -51,6 +51,12 @@
     <Compile Include="Regristro de Usuario de la Empresa.Designer.cs">
       <DependentUpon>Regristro de Usuario de la Empresa.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ventana de Donaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventana de Donaciones.Designer.cs">
+      <DependentUpon>Ventana de Donaciones.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -71,6 +77,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Regristro de Usuario de la Empresa.resx">
       <DependentUpon>Regristro de Usuario de la Empresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventana de Donaciones.resx">
+      <DependentUpon>Ventana de Donaciones.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
