@@ -33,6 +33,12 @@
     <Compile Include="Inicio.Designer.cs">
       <DependentUpon>Inicio.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lista de Subordinados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lista de Subordinados.Designer.cs">
+      <DependentUpon>Lista de Subordinados.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu Principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +74,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lista de Subordinados.resx">
+      <DependentUpon>Lista de Subordinados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu Principal.resx">
       <DependentUpon>Menu Principal.cs</DependentUpon>
