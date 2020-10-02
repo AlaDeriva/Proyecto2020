@@ -63,6 +63,17 @@
     <Compile Include="Ventanas\Ventana de Donaciones.Designer.cs">
       <DependentUpon>Ventana de Donaciones.cs</DependentUpon>
     </Compile>
+    <Compile Include="BaseDeDatos.cs" />
+    <Compile Include="Beneficiario.cs" />
+    <Compile Include="Consultas.cs" />
+    <Compile Include="Deposito.cs" />
+    <Compile Include="Donacion.cs" />
+    <Compile Include="Donante.cs" />
+    <Compile Include="Perfil.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Sesion.cs" />
+    <Compile Include="Usuario.cs" />
+    <Compile Include="UtilesXML.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
