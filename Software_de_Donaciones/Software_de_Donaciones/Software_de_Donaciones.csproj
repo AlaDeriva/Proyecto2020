@@ -74,6 +74,12 @@
     <Compile Include="Sesion.cs" />
     <Compile Include="Usuario.cs" />
     <Compile Include="UtilesXML.cs" />
+    <Compile Include="Ventanas\Ventana Deposito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\Ventana Deposito.Designer.cs">
+      <DependentUpon>Ventana Deposito.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
@@ -117,6 +123,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Ventanas\Ventana de Donaciones.resx">
       <DependentUpon>Ventana de Donaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\Ventana Deposito.resx">
+      <DependentUpon>Ventana Deposito.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
