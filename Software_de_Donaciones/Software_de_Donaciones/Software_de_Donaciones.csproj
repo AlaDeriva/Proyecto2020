@@ -27,6 +27,12 @@
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Ventanas\Agregar Nombre de la Categoría.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\Agregar Nombre de la Categoría.Designer.cs">
+      <DependentUpon>Agregar Nombre de la Categoría.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ventanas\Inicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,6 +118,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Ventanas\Agregar Nombre de la Categoría.resx">
+      <DependentUpon>Agregar Nombre de la Categoría.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ventanas\Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
     </EmbeddedResource>
