@@ -63,6 +63,12 @@
     <Compile Include="Ventanas\Opciones de Categoria.Designer.cs">
       <DependentUpon>Opciones de Categoria.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ventanas\Registro Actual del Material Previo a la Llegada del Deposito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\Registro Actual del Material Previo a la Llegada del Deposito.Designer.cs">
+      <DependentUpon>Registro Actual del Material Previo a la Llegada del Deposito.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ventanas\Registro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -141,6 +147,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Ventanas\Opciones de Categoria.resx">
       <DependentUpon>Opciones de Categoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\Registro Actual del Material Previo a la Llegada del Deposito.resx">
+      <DependentUpon>Registro Actual del Material Previo a la Llegada del Deposito.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ventanas\Registro.resx">
       <DependentUpon>Registro.cs</DependentUpon>
