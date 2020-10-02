@@ -33,6 +33,12 @@
     <Compile Include="Ventanas\Agregar Nombre de la Categoría.Designer.cs">
       <DependentUpon>Agregar Nombre de la Categoría.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ventanas\Información General de la Donación.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\Información General de la Donación.Designer.cs">
+      <DependentUpon>Información General de la Donación.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ventanas\Inicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,6 +138,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Ventanas\Agregar Nombre de la Categoría.resx">
       <DependentUpon>Agregar Nombre de la Categoría.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\Información General de la Donación.resx">
+      <DependentUpon>Información General de la Donación.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ventanas\Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
