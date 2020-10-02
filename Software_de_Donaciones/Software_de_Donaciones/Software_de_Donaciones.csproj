@@ -45,6 +45,12 @@
     <Compile Include="Ventanas\Menu Principal.Designer.cs">
       <DependentUpon>Menu Principal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ventanas\Opciones de Categoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\Opciones de Categoria.Designer.cs">
+      <DependentUpon>Opciones de Categoria.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ventanas\Registro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +120,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Ventanas\Menu Principal.resx">
       <DependentUpon>Menu Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\Opciones de Categoria.resx">
+      <DependentUpon>Opciones de Categoria.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ventanas\Registro.resx">
       <DependentUpon>Registro.cs</DependentUpon>
