@@ -3,7 +3,7 @@ Use AlaDerivaSoftware
 
 
 CREATE TABLE Usuario(
-NombreUsuario VARCHAR (30) NOT NULL PRIMARY KEY, 
+NombreUsuario VARCHAR (30) NOT NULL PRIMARY KEY,
 Cargo ENUM ("Cliente", "Encargado", "Administrador") VARCHAR(20) NOT NULL, 
 Hash VARCHAR (100) NOT NULL, 
 sal VARCHAR (100) NOT NULL);
@@ -23,7 +23,7 @@ Fecha_Hora TIMESTAMP NOT NULL default current_timestamp);
 
 CREATE TABLE Beneficiario(
 ID INT (10) NOT NULL PRIMARY KEY AUTO_INCREMENT,
-CI INT (10) NOT NULL unique,
+CI INT (8) NOT NULL unique,
 Tipo ENUM ("Donante", "Destinatario") NOT NULL,
 Nombre VARCHAR (12) NOT NULL,
 Apellido VARCHAR (12) NOT NULL,
@@ -35,7 +35,8 @@ CREATE TABLE Deposito(
 ID INT (10) NOT NULL PRIMARY KEY AUTO_INCREMENT,
 Ubicacion VARCHAR (20) NOT NULL unique,
 Nombre VARCHAR (12) NOT NULL,
-Telefono VARCHAR (10) NOT NULL unique);
+Telefono VARCHAR (10) NOT NULL unique
+Seccion VARCHAR (4) NOT NULL );
 
 CREATE TABLE Donacion(
 ID INT (10) NOT NULL PRIMARY KEY AUTO_INCREMENT,
@@ -56,7 +57,7 @@ CREATE TABLE Supervisa(
 ID INT (10) NOT NULL PRIMARY KEY AUTO_INCREMENT,
 Donacion_ID INT (10) NOT NULL,
 Usuario_NombreUsuario VARCHAR (20) NOT NULL,
-Tipo VARCHAR (20) NOT NULL);
+Tipo ENUM ("Encargado", "AdmivcVnistrador") NOT NULL);
 
 CREATE TABLE Recibe(
 ID_Cliente INT (10) NOT NULL PRIMARY KEY,
@@ -78,6 +79,9 @@ Direccion VARCHAR (20) NOT NULL,
 Numero INT (10) NOT NULL,
 Capcidad VARCHAR (20) NOT NULL,
 Condicion VARCHAR (20) NOT NULL);
+
+
+
 
 
 
