@@ -46,8 +46,8 @@ Fecha_Hora Envio TIMESTAMP NOT NULL default current_timestamp
 Fecha_Hora Entrega TIMESTAMP NOT NULL default current_timestamp);
 
 CREATE TABLE Tiene(
-ID_Usuario INT (10) NOT NULL PRIMARY KEY,
-ID_Perfil INT (10) NOT NULL); 
+NombreUsuario_Usuario VARCHAR (30) NOT NULL PRIMARY KEY,
+NombreUsuario_Perfil VARCHAR (30) NOT NULL); 
 
 CREATE TABLE Inicia(
 ID_Sesion INT (10) NOT NULL PRIMARY KEY,
@@ -79,6 +79,27 @@ Direccion VARCHAR (20) NOT NULL,
 Numero INT (10) NOT NULL,
 Capcidad VARCHAR (20) NOT NULL,
 Condicion VARCHAR (20) NOT NULL);
+
+ALTER TABLE Tiene(
+add constraint FK_Usuario_Tiene
+foreign key (Usuario_NombreUsuario)
+references Usuario(NombreUsuario)
+on update cascade
+on delete cascade);
+
+ALTER TABLE Tiene(
+add constraint FK_Perfil_Tiene
+foreign key (Perfil_NombreUsuario)
+references Perfil(NombreUsuario)
+on update cascade
+on delete cascade);
+
+ALTER TABLE Inicia(
+add constraint FK_Usuario_Inicia
+foreign key (Usuario_UsuarioNombre)
+references Usuario(UsuarioNombre)
+on update cascade
+on delete cascade);
 
 
 
