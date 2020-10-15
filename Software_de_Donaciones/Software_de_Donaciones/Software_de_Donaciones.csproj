@@ -33,6 +33,12 @@
     <Compile Include="Ventanas\Agregar Nombre de la Categoría.Designer.cs">
       <DependentUpon>Agregar Nombre de la Categoría.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ventanas\Detalles del Circunstancias de Salida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\Detalles del Circunstancias de Salida.Designer.cs">
+      <DependentUpon>Detalles del Circunstancias de Salida.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ventanas\Información General de la Donación.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -138,6 +144,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Ventanas\Agregar Nombre de la Categoría.resx">
       <DependentUpon>Agregar Nombre de la Categoría.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\Detalles del Circunstancias de Salida.resx">
+      <DependentUpon>Detalles del Circunstancias de Salida.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ventanas\Información General de la Donación.resx">
       <DependentUpon>Información General de la Donación.cs</DependentUpon>
