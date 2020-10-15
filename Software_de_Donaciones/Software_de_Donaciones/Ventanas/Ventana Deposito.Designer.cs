@@ -39,7 +39,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.listBox1 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // button1
@@ -149,21 +148,11 @@
             this.textBox1.Size = new System.Drawing.Size(179, 20);
             this.textBox1.TabIndex = 10;
             // 
-            // listBox1
-            // 
-            this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(12, 125);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(776, 212);
-            this.listBox1.TabIndex = 11;
-            // 
             // Ventana_Deposito
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label3);
@@ -195,6 +184,5 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ListBox listBox1;
     }
 }
