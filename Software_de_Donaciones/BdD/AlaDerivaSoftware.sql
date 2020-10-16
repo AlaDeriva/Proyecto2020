@@ -4,18 +4,18 @@ Use AlaDerivaSoftware
 
 CREATE TABLE Usuario(
 NombreUsuario VARCHAR (30) NOT NULL PRIMARY KEY,
-Cargo ENUM ("Cliente", "Encargado", "Administrador") VARCHAR(20) NOT NULL, 
+Cargo ENUM ("Cliente", "Encargado", "Administrador") NOT NULL, 
 Hash VARCHAR (100) NOT NULL, 
 sal VARCHAR (100) NOT NULL);
 
 CREATE TABLE Perfil(
 NombreUsuario VARCHAR (30) NOT NULL PRIMARY KEY,
 CI INT (8) NOT NULL unique,
-E-mail VARCHAR (12) NOT NULL unique,
+Email VARCHAR (12) NOT NULL unique,
 Nombre VARCHAR (12) NOT NULL,
 Apellido VARCHAR (12) NOT NULL,
-Telefono INT (10) NOT NULL unique);
-
+Telefono INT (20) NOT NULL unique);
+o
 CREATE TABLE Sesion(
 ID INT (10) NOT NULL PRIMARY KEY AUTO_INCREMENT,
 Estado ENUM ("Abierta","Cerrada") NOT NULL default "Abierta",
@@ -27,16 +27,16 @@ CI INT (8) NOT NULL unique,
 Tipo ENUM ("Donante", "Destinatario") NOT NULL,
 Nombre VARCHAR (12) NOT NULL,
 Apellido VARCHAR (12) NOT NULL,
-Telefono INT (10) NOT NULL unique,
-E-mail VARCHAR (12) NOT NULL unique,
+Telefono INT (20) NOT NULL unique,
+Email VARCHAR (12) NOT NULL unique,
 Direccion VARCHAR (12) NOT NULL unique);
 
 CREATE TABLE Deposito(
 ID INT (10) NOT NULL PRIMARY KEY AUTO_INCREMENT,
 Ubicacion VARCHAR (20) NOT NULL unique,
 Nombre VARCHAR (12) NOT NULL,
-Telefono VARCHAR (10) NOT NULL unique
-Seccion VARCHAR (4) NOT NULL );
+Telefono VARCHAR (20) NOT NULL unique,
+Seccion VARCHAR (4) NOT NULL);
 
 CREATE TABLE Donacion(
 ID INT (10) NOT NULL PRIMARY KEY AUTO_INCREMENT,
