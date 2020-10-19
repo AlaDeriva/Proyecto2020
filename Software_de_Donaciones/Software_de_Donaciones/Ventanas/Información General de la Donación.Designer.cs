@@ -38,9 +38,9 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.boton_denegar = new System.Windows.Forms.Button();
+            this.boton_atras = new System.Windows.Forms.Button();
+            this.boton_autorizar = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
@@ -152,35 +152,35 @@
             this.label10.TabIndex = 9;
             this.label10.Text = "Empresa:";
             // 
-            // button1
+            // boton_denegar
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(365, 388);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(123, 50);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "Denegar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.boton_denegar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.boton_denegar.Location = new System.Drawing.Point(365, 388);
+            this.boton_denegar.Name = "boton_denegar";
+            this.boton_denegar.Size = new System.Drawing.Size(123, 50);
+            this.boton_denegar.TabIndex = 10;
+            this.boton_denegar.Text = "Denegar";
+            this.boton_denegar.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // boton_atras
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(12, 388);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(128, 50);
-            this.button2.TabIndex = 11;
-            this.button2.Text = "Atràs";
-            this.button2.UseVisualStyleBackColor = true;
+            this.boton_atras.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.boton_atras.Location = new System.Drawing.Point(12, 388);
+            this.boton_atras.Name = "boton_atras";
+            this.boton_atras.Size = new System.Drawing.Size(128, 50);
+            this.boton_atras.TabIndex = 11;
+            this.boton_atras.Text = "Atràs";
+            this.boton_atras.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // boton_autorizar
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(545, 388);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(128, 50);
-            this.button3.TabIndex = 12;
-            this.button3.Text = "Autorizar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.boton_autorizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.boton_autorizar.Location = new System.Drawing.Point(545, 388);
+            this.boton_autorizar.Name = "boton_autorizar";
+            this.boton_autorizar.Size = new System.Drawing.Size(128, 50);
+            this.boton_autorizar.TabIndex = 12;
+            this.boton_autorizar.Text = "Autorizar";
+            this.boton_autorizar.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
             // 
@@ -260,9 +260,9 @@
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.boton_autorizar);
+            this.Controls.Add(this.boton_atras);
+            this.Controls.Add(this.boton_denegar);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -294,9 +294,9 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button boton_denegar;
+        private System.Windows.Forms.Button boton_atras;
+        private System.Windows.Forms.Button boton_autorizar;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;

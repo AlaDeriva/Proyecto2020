@@ -45,8 +45,8 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.boton_atras = new System.Windows.Forms.Button();
+            this.boton_donar = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
@@ -201,25 +201,25 @@
             this.label10.TabIndex = 16;
             this.label10.Text = "C.I del Usuario:";
             // 
-            // button1
+            // boton_atras
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(30, 377);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 17;
-            this.button1.Text = "Atrás";
-            this.button1.UseVisualStyleBackColor = true;
+            this.boton_atras.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.boton_atras.Location = new System.Drawing.Point(30, 377);
+            this.boton_atras.Name = "boton_atras";
+            this.boton_atras.Size = new System.Drawing.Size(75, 23);
+            this.boton_atras.TabIndex = 17;
+            this.boton_atras.Text = "Atrás";
+            this.boton_atras.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // boton_donar
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(167, 323);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(154, 23);
-            this.button2.TabIndex = 18;
-            this.button2.Text = "Donar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.boton_donar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.boton_donar.Location = new System.Drawing.Point(167, 323);
+            this.boton_donar.Name = "boton_donar";
+            this.boton_donar.Size = new System.Drawing.Size(154, 23);
+            this.boton_donar.TabIndex = 18;
+            this.boton_donar.Text = "Donar";
+            this.boton_donar.UseVisualStyleBackColor = true;
             // 
             // comboBox1
             // 
@@ -261,8 +261,8 @@
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.boton_donar);
+            this.Controls.Add(this.boton_atras);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -306,8 +306,8 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button boton_atras;
+        private System.Windows.Forms.Button boton_donar;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;

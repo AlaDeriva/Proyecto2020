@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.boton_modificarcategoria = new System.Windows.Forms.Button();
+            this.boton_agregarcategoria = new System.Windows.Forms.Button();
+            this.boton_eliminarcategoria = new System.Windows.Forms.Button();
+            this.boton_buscar = new System.Windows.Forms.Button();
+            this.boton_atras = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -41,55 +41,55 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
-            // button1
+            // boton_modificarcategoria
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(657, 380);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(131, 41);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Modificar Categoría";
-            this.button1.UseVisualStyleBackColor = true;
+            this.boton_modificarcategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.boton_modificarcategoria.Location = new System.Drawing.Point(657, 380);
+            this.boton_modificarcategoria.Name = "boton_modificarcategoria";
+            this.boton_modificarcategoria.Size = new System.Drawing.Size(131, 41);
+            this.boton_modificarcategoria.TabIndex = 0;
+            this.boton_modificarcategoria.Text = "Modificar Categoría";
+            this.boton_modificarcategoria.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // boton_agregarcategoria
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(12, 380);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(131, 41);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Agregar Categoría";
-            this.button2.UseVisualStyleBackColor = true;
+            this.boton_agregarcategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.boton_agregarcategoria.Location = new System.Drawing.Point(12, 380);
+            this.boton_agregarcategoria.Name = "boton_agregarcategoria";
+            this.boton_agregarcategoria.Size = new System.Drawing.Size(131, 41);
+            this.boton_agregarcategoria.TabIndex = 1;
+            this.boton_agregarcategoria.Text = "Agregar Categoría";
+            this.boton_agregarcategoria.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // boton_eliminarcategoria
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(336, 380);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(131, 41);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Eliminar  Categoría";
-            this.button3.UseVisualStyleBackColor = true;
+            this.boton_eliminarcategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.boton_eliminarcategoria.Location = new System.Drawing.Point(336, 380);
+            this.boton_eliminarcategoria.Name = "boton_eliminarcategoria";
+            this.boton_eliminarcategoria.Size = new System.Drawing.Size(131, 41);
+            this.boton_eliminarcategoria.TabIndex = 2;
+            this.boton_eliminarcategoria.Text = "Eliminar  Categoría";
+            this.boton_eliminarcategoria.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // boton_buscar
             // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(518, 49);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Buscar";
-            this.button4.UseVisualStyleBackColor = true;
+            this.boton_buscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.boton_buscar.Location = new System.Drawing.Point(518, 49);
+            this.boton_buscar.Name = "boton_buscar";
+            this.boton_buscar.Size = new System.Drawing.Size(75, 23);
+            this.boton_buscar.TabIndex = 3;
+            this.boton_buscar.Text = "Buscar";
+            this.boton_buscar.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // boton_atras
             // 
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(12, 26);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 28);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Atrás";
-            this.button5.UseVisualStyleBackColor = true;
+            this.boton_atras.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.boton_atras.Location = new System.Drawing.Point(12, 26);
+            this.boton_atras.Name = "boton_atras";
+            this.boton_atras.Size = new System.Drawing.Size(75, 28);
+            this.boton_atras.TabIndex = 4;
+            this.boton_atras.Text = "Atrás";
+            this.boton_atras.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -159,11 +159,11 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.boton_atras);
+            this.Controls.Add(this.boton_buscar);
+            this.Controls.Add(this.boton_eliminarcategoria);
+            this.Controls.Add(this.boton_agregarcategoria);
+            this.Controls.Add(this.boton_modificarcategoria);
             this.Name = "Opciones_de_Categoria";
             this.Text = "Opciones_de_Categoria";
             this.ResumeLayout(false);
@@ -173,11 +173,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button boton_modificarcategoria;
+        private System.Windows.Forms.Button boton_agregarcategoria;
+        private System.Windows.Forms.Button boton_eliminarcategoria;
+        private System.Windows.Forms.Button boton_buscar;
+        private System.Windows.Forms.Button boton_atras;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;

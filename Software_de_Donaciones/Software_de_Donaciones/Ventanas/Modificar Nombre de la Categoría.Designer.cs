@@ -30,7 +30,7 @@
         {
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.boton_modificarnombredecategoria = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -51,15 +51,15 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "Modificar Nombre de la Categoría:";
             // 
-            // button1
+            // boton_modificarnombredecategoria
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(136, 120);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(140, 43);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Modificar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.boton_modificarnombredecategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.boton_modificarnombredecategoria.Location = new System.Drawing.Point(136, 120);
+            this.boton_modificarnombredecategoria.Name = "boton_modificarnombredecategoria";
+            this.boton_modificarnombredecategoria.Size = new System.Drawing.Size(140, 43);
+            this.boton_modificarnombredecategoria.TabIndex = 3;
+            this.boton_modificarnombredecategoria.Text = "Modificar";
+            this.boton_modificarnombredecategoria.UseVisualStyleBackColor = true;
             // 
             // Modificar_Nombre_de_la_Categoría
             // 
@@ -68,7 +68,7 @@
             this.ClientSize = new System.Drawing.Size(430, 208);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.boton_modificarnombredecategoria);
             this.Name = "Modificar_Nombre_de_la_Categoría";
             this.Text = "Modificar_Nombre_de_la_Categoría";
             this.ResumeLayout(false);
@@ -80,6 +80,6 @@
 
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button boton_modificarnombredecategoria;
     }
 }

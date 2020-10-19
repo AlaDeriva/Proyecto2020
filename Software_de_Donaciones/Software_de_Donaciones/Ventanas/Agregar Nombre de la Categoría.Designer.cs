@@ -28,20 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.boton_agregarcategoria = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // button1
+            // boton_agregarcategoria
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(129, 107);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(140, 43);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Agregar Categoria";
-            this.button1.UseVisualStyleBackColor = true;
+            this.boton_agregarcategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.boton_agregarcategoria.Location = new System.Drawing.Point(129, 107);
+            this.boton_agregarcategoria.Name = "boton_agregarcategoria";
+            this.boton_agregarcategoria.Size = new System.Drawing.Size(140, 43);
+            this.boton_agregarcategoria.TabIndex = 0;
+            this.boton_agregarcategoria.Text = "Agregar Categoria";
+            this.boton_agregarcategoria.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -68,7 +68,7 @@
             this.ClientSize = new System.Drawing.Size(404, 201);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.boton_agregarcategoria);
             this.Name = "Agregar_Nombre_de_la_Categoría";
             this.Text = "Agregar_Nombre_de_la_Categoría";
             this.ResumeLayout(false);
@@ -78,7 +78,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button boton_agregarcategoria;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
     }

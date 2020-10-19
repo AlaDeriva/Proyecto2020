@@ -29,16 +29,15 @@
         private void InitializeComponent()
         {
             this.grp_admin = new System.Windows.Forms.GroupBox();
+            this.boton_administrardeposito = new System.Windows.Forms.Button();
+            this.boton_versubordinados = new System.Windows.Forms.Button();
             this.grp_cliente = new System.Windows.Forms.GroupBox();
+            this.boton_rastreardonacion = new System.Windows.Forms.Button();
+            this.boton_enviardonacion = new System.Windows.Forms.Button();
             this.grp_encargado = new System.Windows.Forms.GroupBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.boton_accederaldeposito = new System.Windows.Forms.Button();
+            this.boton_cerrarsesion = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.grp_admin.SuspendLayout();
             this.grp_cliente.SuspendLayout();
             this.grp_encargado.SuspendLayout();
@@ -46,9 +45,9 @@
             // 
             // grp_admin
             // 
-            this.grp_admin.Controls.Add(this.button1);
-            this.grp_admin.Controls.Add(this.button4);
-            this.grp_admin.Controls.Add(this.button3);
+            this.grp_admin.Controls.Add(this.boton_administrardeposito);
+            this.grp_admin.Controls.Add(this.boton_versubordinados);
+            this.grp_admin.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grp_admin.Location = new System.Drawing.Point(563, 153);
             this.grp_admin.Name = "grp_admin";
             this.grp_admin.Size = new System.Drawing.Size(225, 285);
@@ -56,10 +55,29 @@
             this.grp_admin.TabStop = false;
             this.grp_admin.Text = "Administrador";
             // 
+            // boton_administrardeposito
+            // 
+            this.boton_administrardeposito.Location = new System.Drawing.Point(18, 95);
+            this.boton_administrardeposito.Name = "boton_administrardeposito";
+            this.boton_administrardeposito.Size = new System.Drawing.Size(201, 23);
+            this.boton_administrardeposito.TabIndex = 4;
+            this.boton_administrardeposito.Text = "Administrar  Deposito";
+            this.boton_administrardeposito.UseVisualStyleBackColor = true;
+            // 
+            // boton_versubordinados
+            // 
+            this.boton_versubordinados.Location = new System.Drawing.Point(18, 134);
+            this.boton_versubordinados.Name = "boton_versubordinados";
+            this.boton_versubordinados.Size = new System.Drawing.Size(201, 23);
+            this.boton_versubordinados.TabIndex = 2;
+            this.boton_versubordinados.Text = "Ver Subordinados";
+            this.boton_versubordinados.UseVisualStyleBackColor = true;
+            // 
             // grp_cliente
             // 
-            this.grp_cliente.Controls.Add(this.button2);
-            this.grp_cliente.Controls.Add(this.button7);
+            this.grp_cliente.Controls.Add(this.boton_rastreardonacion);
+            this.grp_cliente.Controls.Add(this.boton_enviardonacion);
+            this.grp_cliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grp_cliente.Location = new System.Drawing.Point(29, 153);
             this.grp_cliente.Name = "grp_cliente";
             this.grp_cliente.Size = new System.Drawing.Size(193, 285);
@@ -68,9 +86,28 @@
             this.grp_cliente.Text = "Cliente";
             this.grp_cliente.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
+            // boton_rastreardonacion
+            // 
+            this.boton_rastreardonacion.Location = new System.Drawing.Point(6, 134);
+            this.boton_rastreardonacion.Name = "boton_rastreardonacion";
+            this.boton_rastreardonacion.Size = new System.Drawing.Size(168, 23);
+            this.boton_rastreardonacion.TabIndex = 8;
+            this.boton_rastreardonacion.Text = "Rastrear Donaciòn";
+            this.boton_rastreardonacion.UseVisualStyleBackColor = true;
+            // 
+            // boton_enviardonacion
+            // 
+            this.boton_enviardonacion.Location = new System.Drawing.Point(6, 104);
+            this.boton_enviardonacion.Name = "boton_enviardonacion";
+            this.boton_enviardonacion.Size = new System.Drawing.Size(168, 23);
+            this.boton_enviardonacion.TabIndex = 7;
+            this.boton_enviardonacion.Text = "Enviar Donaciòn";
+            this.boton_enviardonacion.UseVisualStyleBackColor = true;
+            // 
             // grp_encargado
             // 
-            this.grp_encargado.Controls.Add(this.button6);
+            this.grp_encargado.Controls.Add(this.boton_accederaldeposito);
+            this.grp_encargado.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grp_encargado.Location = new System.Drawing.Point(281, 153);
             this.grp_encargado.Name = "grp_encargado";
             this.grp_encargado.Size = new System.Drawing.Size(218, 285);
@@ -78,84 +115,41 @@
             this.grp_encargado.TabStop = false;
             this.grp_encargado.Text = "Encargado";
             // 
-            // button3
+            // boton_accederaldeposito
             // 
-            this.button3.Location = new System.Drawing.Point(6, 133);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(201, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Ver Subordinados";
-            this.button3.UseVisualStyleBackColor = true;
+            this.boton_accederaldeposito.Location = new System.Drawing.Point(11, 104);
+            this.boton_accederaldeposito.Name = "boton_accederaldeposito";
+            this.boton_accederaldeposito.Size = new System.Drawing.Size(201, 23);
+            this.boton_accederaldeposito.TabIndex = 4;
+            this.boton_accederaldeposito.Text = "Acceder al Deposito";
+            this.boton_accederaldeposito.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // boton_cerrarsesion
             // 
-            this.button5.Location = new System.Drawing.Point(697, 2);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(91, 26);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Cerrar Sesion";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(11, 104);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(201, 23);
-            this.button6.TabIndex = 4;
-            this.button6.Text = "Acceder al Deposito";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(6, 104);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(168, 23);
-            this.button7.TabIndex = 7;
-            this.button7.Text = "Enviar Donaciòn";
-            this.button7.UseVisualStyleBackColor = true;
+            this.boton_cerrarsesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.boton_cerrarsesion.Location = new System.Drawing.Point(697, 3);
+            this.boton_cerrarsesion.Name = "boton_cerrarsesion";
+            this.boton_cerrarsesion.Size = new System.Drawing.Size(91, 26);
+            this.boton_cerrarsesion.TabIndex = 4;
+            this.boton_cerrarsesion.Text = "Cerrar Sesion";
+            this.boton_cerrarsesion.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(133, 9);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(275, 36);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(154, 13);
+            this.label2.Size = new System.Drawing.Size(275, 31);
             this.label2.TabIndex = 8;
-            this.label2.Text = "Bienvenido Usuario Encargado";
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(6, 104);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(201, 23);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Acceder al Deposito";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(6, 75);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(201, 23);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Administrar  Deposito";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(6, 134);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(168, 23);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "Rastrear Donaciòn";
-            this.button2.UseVisualStyleBackColor = true;
+            this.label2.Text = "Bienvenido Usuario ";
             // 
             // Menu_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.boton_cerrarsesion);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.grp_encargado);
             this.Controls.Add(this.grp_cliente);
@@ -174,14 +168,13 @@
 
         private System.Windows.Forms.GroupBox grp_admin;
         private System.Windows.Forms.GroupBox grp_cliente;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button boton_administrardeposito;
+        private System.Windows.Forms.Button boton_versubordinados;
+        private System.Windows.Forms.Button boton_rastreardonacion;
+        private System.Windows.Forms.Button boton_enviardonacion;
         private System.Windows.Forms.GroupBox grp_encargado;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button boton_accederaldeposito;
+        private System.Windows.Forms.Button boton_cerrarsesion;
         private System.Windows.Forms.Label label2;
     }
 }

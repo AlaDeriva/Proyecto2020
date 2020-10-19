@@ -28,33 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.boton_iniciarsesion = new System.Windows.Forms.Button();
+            this.boton_registrarse = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // button1
+            // boton_iniciarsesion
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(108, 180);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(149, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Iniciar Sesiòn";
-            this.button1.UseVisualStyleBackColor = true;
+            this.boton_iniciarsesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.boton_iniciarsesion.Location = new System.Drawing.Point(108, 180);
+            this.boton_iniciarsesion.Name = "boton_iniciarsesion";
+            this.boton_iniciarsesion.Size = new System.Drawing.Size(149, 23);
+            this.boton_iniciarsesion.TabIndex = 0;
+            this.boton_iniciarsesion.Text = "Iniciar Sesiòn";
+            this.boton_iniciarsesion.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // boton_registrarse
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(108, 218);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(149, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Registrarse";
-            this.button2.UseVisualStyleBackColor = true;
+            this.boton_registrarse.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.boton_registrarse.Location = new System.Drawing.Point(108, 218);
+            this.boton_registrarse.Name = "boton_registrarse";
+            this.boton_registrarse.Size = new System.Drawing.Size(149, 23);
+            this.boton_registrarse.TabIndex = 1;
+            this.boton_registrarse.Text = "Registrarse";
+            this.boton_registrarse.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -99,8 +99,8 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.boton_registrarse);
+            this.Controls.Add(this.boton_iniciarsesion);
             this.Name = "Inicio";
             this.Text = "Inicio";
             this.ResumeLayout(false);
@@ -110,8 +110,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button boton_iniciarsesion;
+        private System.Windows.Forms.Button boton_registrarse;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;

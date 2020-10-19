@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.boton_registrarse = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -49,15 +49,15 @@
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // button1
+            // boton_registrarse
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(150, 392);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(141, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Regristarse";
-            this.button1.UseVisualStyleBackColor = true;
+            this.boton_registrarse.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.boton_registrarse.Location = new System.Drawing.Point(150, 392);
+            this.boton_registrarse.Name = "boton_registrarse";
+            this.boton_registrarse.Size = new System.Drawing.Size(141, 23);
+            this.boton_registrarse.TabIndex = 0;
+            this.boton_registrarse.Text = "Regristarse";
+            this.boton_registrarse.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -240,7 +240,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.boton_registrarse);
             this.Name = "Registro";
             this.Text = "Registro";
             this.ResumeLayout(false);
@@ -250,7 +250,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button boton_registrarse;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;

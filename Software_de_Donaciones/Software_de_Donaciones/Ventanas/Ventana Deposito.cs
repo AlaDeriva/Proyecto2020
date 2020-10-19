@@ -16,5 +16,18 @@ namespace Software_de_Donaciones.Ventanas
         {
             InitializeComponent();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            int seleccionada = dgv_datosdeposito.SelectedRows[0].Index;
+            DialogResult respuesta = MessageBox.Show(
+                "¿Esta seguro que quiere eliminar esta donación?", 
+                "Confirmar", 
+                MessageBoxButtons.YesNo);
+            if (respuesta == DialogResult.Yes)
+            {
+                //Se elimina la donación
+            }
+        }
     }
 }

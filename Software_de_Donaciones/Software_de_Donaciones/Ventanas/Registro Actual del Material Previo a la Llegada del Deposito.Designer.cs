@@ -28,31 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.boton_iralmenuprincipal = new System.Windows.Forms.Button();
+            this.boton_informaciondeladonacion = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
-            // button1
+            // boton_iralmenuprincipal
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(12, 227);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(163, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "<- Ir al Menú Principal";
-            this.button1.UseVisualStyleBackColor = true;
+            this.boton_iralmenuprincipal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.boton_iralmenuprincipal.Location = new System.Drawing.Point(12, 227);
+            this.boton_iralmenuprincipal.Name = "boton_iralmenuprincipal";
+            this.boton_iralmenuprincipal.Size = new System.Drawing.Size(163, 23);
+            this.boton_iralmenuprincipal.TabIndex = 0;
+            this.boton_iralmenuprincipal.Text = "<- Ir al Menú Principal";
+            this.boton_iralmenuprincipal.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // boton_informaciondeladonacion
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(155, 178);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(264, 34);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "VER INFORMACIÓN DE LA DONACIÓN";
-            this.button2.UseVisualStyleBackColor = true;
+            this.boton_informaciondeladonacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.boton_informaciondeladonacion.Location = new System.Drawing.Point(155, 178);
+            this.boton_informaciondeladonacion.Name = "boton_informaciondeladonacion";
+            this.boton_informaciondeladonacion.Size = new System.Drawing.Size(264, 34);
+            this.boton_informaciondeladonacion.TabIndex = 1;
+            this.boton_informaciondeladonacion.Text = "VER INFORMACIÓN DE LA DONACIÓN";
+            this.boton_informaciondeladonacion.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -80,8 +80,8 @@
             this.ClientSize = new System.Drawing.Size(590, 272);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.boton_informaciondeladonacion);
+            this.Controls.Add(this.boton_iralmenuprincipal);
             this.Name = "Registro_Actual_del_Material_Previo_a_la_Llegada_del_Deposito";
             this.Text = "Registro_Actual_del_Material_Previo_a_la_Llegada_del_Deposito";
             this.ResumeLayout(false);
@@ -91,8 +91,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button boton_iralmenuprincipal;
+        private System.Windows.Forms.Button boton_informaciondeladonacion;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ListBox listBox1;
     }
