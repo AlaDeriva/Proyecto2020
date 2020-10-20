@@ -27,6 +27,11 @@
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Ventanas\Agregar Nombre de la Categoría.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -142,6 +147,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ventanas\Agregar Nombre de la Categoría.resx">
       <DependentUpon>Agregar Nombre de la Categoría.cs</DependentUpon>
     </EmbeddedResource>
@@ -184,6 +193,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_ALD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_ALD5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_ALD8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo DESERT HORIZON77.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo DESERT HORIZONfghj.png" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

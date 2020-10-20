@@ -1,1 +1,18 @@
 /home/ceibal/Documentos/GitHub/Proyecto2020/Software_de_Donaciones/Software_de_Donaciones/obj/x86/Debug/Software_de_Donaciones.csprojAssemblyReference.cache
+C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\obj\x86\Debug\Software_de_Donaciones.csprojAssemblyReference.cache
+C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\obj\x86\Debug\Software_de_Donaciones.Properties.Resources.resources
+C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\obj\x86\Debug\Software_de_Donaciones.Ventanas.Agregar_Nombre_de_la_Categoría.resources
+C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\obj\x86\Debug\Software_de_Donaciones.Ventanas.Detalles_del_Circunstancias_de_Salida.resources
+C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\obj\x86\Debug\Software_de_Donaciones.Ventanas.Información_General_de_la_Donación.resources
+C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\obj\x86\Debug\Software_de_Donaciones.Inicio.resources
+C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\obj\x86\Debug\Software_de_Donaciones.Lista_de_Subordinados.resources
+C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\obj\x86\Debug\Software_de_Donaciones.Menu_Principal.resources
+C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\obj\x86\Debug\Software_de_Donaciones.Ventanas.Modificar_Nombre_de_la_Categoría.resources
+C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\obj\x86\Debug\Software_de_Donaciones.Ventanas.Opciones_de_Categoria.resources
+C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\obj\x86\Debug\Software_de_Donaciones.Ventanas.Registro_Actual_del_Material_Previo_a_la_Llegada_del_Deposito.resources
+C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\obj\x86\Debug\Software_de_Donaciones.Registro.resources
+C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\obj\x86\Debug\Software_de_Donaciones.Regristro_de_Usuario_de_la_Empresa.resources
+C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\obj\x86\Debug\Software_de_Donaciones.Ventana_de_Donaciones.resources
+C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\obj\x86\Debug\Software_de_Donaciones.Ventanas.Ventana_Deposito.resources
+C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\obj\x86\Debug\Software_de_Donaciones.csproj.GenerateResource.cache
+C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\obj\x86\Debug\Software_de_Donaciones.csproj.CoreCompileInputs.cache
