@@ -42,6 +42,7 @@
             this.boton_agregarcategoria.TabIndex = 0;
             this.boton_agregarcategoria.Text = "Agregar Categoria";
             this.boton_agregarcategoria.UseVisualStyleBackColor = true;
+            this.boton_agregarcategoria.Click += new System.EventHandler(this.boton_agregarcategoria_Click);
             // 
             // label1
             // 

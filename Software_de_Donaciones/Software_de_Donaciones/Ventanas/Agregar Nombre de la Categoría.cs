@@ -16,5 +16,10 @@ namespace Software_de_Donaciones.Ventanas
         {
             InitializeComponent();
         }
+
+        private void boton_agregarcategoria_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

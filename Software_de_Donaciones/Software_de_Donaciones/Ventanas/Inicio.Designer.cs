@@ -32,8 +32,8 @@
             this.boton_registrarse = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.texto_contraseña = new System.Windows.Forms.TextBox();
+            this.texto_usuario = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -47,6 +47,7 @@
             this.boton_iniciarsesion.TabIndex = 0;
             this.boton_iniciarsesion.Text = "Iniciar Sesiòn";
             this.boton_iniciarsesion.UseVisualStyleBackColor = true;
+            this.boton_iniciarsesion.Click += new System.EventHandler(this.boton_iniciarsesion_Click);
             // 
             // boton_registrarse
             // 
@@ -57,6 +58,7 @@
             this.boton_registrarse.TabIndex = 1;
             this.boton_registrarse.Text = "Registrarse";
             this.boton_registrarse.UseVisualStyleBackColor = true;
+            this.boton_registrarse.Click += new System.EventHandler(this.boton_registrarse_Click);
             // 
             // label1
             // 
@@ -78,20 +80,20 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Contraseña";
             // 
-            // textBox1
+            // texto_contraseña
             // 
-            this.textBox1.Location = new System.Drawing.Point(108, 138);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(144, 20);
-            this.textBox1.TabIndex = 4;
+            this.texto_contraseña.Location = new System.Drawing.Point(108, 138);
+            this.texto_contraseña.Name = "texto_contraseña";
+            this.texto_contraseña.Size = new System.Drawing.Size(144, 20);
+            this.texto_contraseña.TabIndex = 4;
             // 
-            // textBox2
+            // texto_usuario
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox2.Location = new System.Drawing.Point(108, 85);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(144, 20);
-            this.textBox2.TabIndex = 5;
+            this.texto_usuario.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.texto_usuario.Location = new System.Drawing.Point(108, 85);
+            this.texto_usuario.Name = "texto_usuario";
+            this.texto_usuario.Size = new System.Drawing.Size(144, 20);
+            this.texto_usuario.TabIndex = 5;
             // 
             // pictureBox1
             // 
@@ -108,8 +110,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(624, 299);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.texto_usuario);
+            this.Controls.Add(this.texto_contraseña);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.boton_registrarse);
@@ -129,8 +131,8 @@
         private System.Windows.Forms.Button boton_registrarse;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox texto_contraseña;
+        private System.Windows.Forms.TextBox texto_usuario;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

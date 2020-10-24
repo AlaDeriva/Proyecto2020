@@ -16,3 +16,13 @@ C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\So
 C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\obj\x86\Debug\Software_de_Donaciones.Ventanas.Ventana_Deposito.resources
 C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\obj\x86\Debug\Software_de_Donaciones.csproj.GenerateResource.cache
 C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\obj\x86\Debug\Software_de_Donaciones.csproj.CoreCompileInputs.cache
+C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\bin\Debug\Software_de_Donaciones.exe.config
+C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\bin\Debug\Software_de_Donaciones.exe
+C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\bin\Debug\Software_de_Donaciones.pdb
+C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\bin\Debug\MySql.Data.dll
+C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\bin\Debug\Zstandard.Net.dll
+C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\bin\Debug\MySql.Data.xml
+C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\obj\x86\Debug\Software_de_Donaciones.csproj.CopyComplete
+C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\obj\x86\Debug\Software_de_Donaciones.exe
+C:\Users\Informatica 3BG\Documents\GitHub\Proyecto2020\Software_de_Donaciones\Software_de_Donaciones\obj\x86\Debug\Software_de_Donaciones.pdb

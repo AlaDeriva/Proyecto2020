@@ -5,7 +5,7 @@ namespace Software_de_Donaciones
     {
         private BaseDeDatos bdd = new BaseDeDatos();
 
-        public ObtenerDatosLogInLegales()
+        public void ObtenerDatosLogInLegales()
         {
 
         }
