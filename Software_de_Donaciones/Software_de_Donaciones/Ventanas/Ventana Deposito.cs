@@ -29,5 +29,10 @@ namespace Software_de_Donaciones.Ventanas
                 //Se elimina la donación
             }
         }
+
+        private void Ventana_Deposito_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

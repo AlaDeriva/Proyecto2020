@@ -103,6 +103,7 @@
             this.boton_enviardonacion.TabIndex = 7;
             this.boton_enviardonacion.Text = "Enviar Donaciòn";
             this.boton_enviardonacion.UseVisualStyleBackColor = true;
+            this.boton_enviardonacion.Click += new System.EventHandler(this.boton_enviardonacion_Click);
             // 
             // grp_encargado
             // 
@@ -123,6 +124,7 @@
             this.boton_accederaldeposito.TabIndex = 4;
             this.boton_accederaldeposito.Text = "Acceder al Deposito";
             this.boton_accederaldeposito.UseVisualStyleBackColor = true;
+            this.boton_accederaldeposito.Click += new System.EventHandler(this.boton_accederaldeposito_Click);
             // 
             // boton_cerrarsesion
             // 

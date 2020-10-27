@@ -217,6 +217,7 @@
             this.Controls.Add(this.boton_iralmenuprincipal);
             this.Name = "Ventana_Deposito";
             this.Text = "Ventana_Deposito";
+            this.Click += new System.EventHandler(this.Ventana_Deposito_Click);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_datosdeposito)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

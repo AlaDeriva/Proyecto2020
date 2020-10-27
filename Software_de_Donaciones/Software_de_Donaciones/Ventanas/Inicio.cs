@@ -17,13 +17,14 @@ namespace Software_de_Donaciones
             InitializeComponent();
         }
 
-        public void Chequeardatos()
+        public bool Chequeardatos()
         {
+            bool resultado = false;
             if (texto_usuario.Text.Length>0)
             {
                 if (texto_contraseña.Text.Length > 0)
                 {
-
+                    resultado = true;
                 }
                 else
                 {
@@ -34,11 +35,17 @@ namespace Software_de_Donaciones
             {
                 MessageBox.Show("Escriba su nombre de usuario");
             }
+            return resultado;
         }
 
         private void boton_iniciarsesion_Click(object sender, EventArgs e)
         {
-            Chequeardatos();
+            if ( Chequeardatos() )
+            {
+                Menu_Principal nuevaventana = new Menu_Principal();
+                nuevaventana.Show();
+                this.Close();
+            }
         }
 
         private void boton_registrarse_Click(object sender, EventArgs e)

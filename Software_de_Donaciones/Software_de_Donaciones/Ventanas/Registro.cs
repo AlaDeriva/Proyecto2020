@@ -21,5 +21,10 @@ namespace Software_de_Donaciones
         {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

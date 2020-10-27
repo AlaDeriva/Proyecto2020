@@ -31,11 +31,11 @@ namespace Software_de_Donaciones
                             {
                                 if (texto_confirmecontra.Text.Length > 0)
                                 {
-                                    if (texto_confirmecontra.Text.Length > 7)
-                                    {
                                         if (texto_confirmecontra.Text.Equals(texto_contraseña.Text))
                                         {
                                             if (texto_ci.Text.Length > 0)
+                                            {
+                                            if (texto_ci.Text.Length > 7)
                                             {
                                                 if (texto_teléfono.Text.Length > 0)
                                                 {
@@ -48,6 +48,11 @@ namespace Software_de_Donaciones
                                             }
                                             else
                                             {
+                                                MessageBox.Show("Su C.I debe tener 8 digitos");
+                                            }
+                                        }
+                                            else
+                                            {
                                                 MessageBox.Show("Escriba su C.I");
                                             }
                                         }
@@ -55,11 +60,7 @@ namespace Software_de_Donaciones
                                         {
                                             MessageBox.Show("La contraseña no coincide");
                                         }
-                                    }
-                                    else
-                                    {
-                                        MessageBox.Show("Confirme su contraseña");
-                                    }
+                                   
                                 }
                                 else
                                 {
