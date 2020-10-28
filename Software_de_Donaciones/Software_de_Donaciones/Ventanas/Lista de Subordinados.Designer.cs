@@ -61,6 +61,7 @@
             this.boton_iralmenu.TabIndex = 1;
             this.boton_iralmenu.Text = "Ir al Menù Principal";
             this.boton_iralmenu.UseVisualStyleBackColor = true;
+            this.boton_iralmenu.Click += new System.EventHandler(this.boton_iralmenu_Click);
             // 
             // boton_agregar
             // 

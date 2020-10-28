@@ -72,6 +72,7 @@
             this.boton_versubordinados.TabIndex = 2;
             this.boton_versubordinados.Text = "Ver Subordinados";
             this.boton_versubordinados.UseVisualStyleBackColor = true;
+            this.boton_versubordinados.Click += new System.EventHandler(this.boton_versubordinados_Click);
             // 
             // grp_cliente
             // 
@@ -135,6 +136,7 @@
             this.boton_cerrarsesion.TabIndex = 4;
             this.boton_cerrarsesion.Text = "Cerrar Sesion";
             this.boton_cerrarsesion.UseVisualStyleBackColor = true;
+            this.boton_cerrarsesion.Click += new System.EventHandler(this.boton_cerrarsesion_Click);
             // 
             // label2
             // 

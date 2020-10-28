@@ -16,5 +16,10 @@ namespace Software_de_Donaciones
         {
             InitializeComponent();
         }
+
+        private void boton_atras_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

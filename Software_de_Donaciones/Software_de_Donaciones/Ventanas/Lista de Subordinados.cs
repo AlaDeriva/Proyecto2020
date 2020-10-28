@@ -26,5 +26,10 @@ namespace Software_de_Donaciones
         {
 
         }
+
+        private void boton_iralmenu_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

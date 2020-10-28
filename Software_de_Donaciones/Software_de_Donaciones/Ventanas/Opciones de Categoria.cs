@@ -16,5 +16,22 @@ namespace Software_de_Donaciones.Ventanas
         {
             InitializeComponent();
         }
+
+        private void boton_agregarcategoria_Click(object sender, EventArgs e)
+        {
+            Agregar_Nombre_de_la_Categoría nuevaventana = new Agregar_Nombre_de_la_Categoría();
+            nuevaventana.Show();
+        }
+
+        private void boton_modificarcategoria_Click(object sender, EventArgs e)
+        {
+            Modificar_Nombre_de_la_Categoría nuevaventana = new Modificar_Nombre_de_la_Categoría();
+            nuevaventana.Show();
+        }
+
+        private void boton_atras_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

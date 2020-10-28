@@ -13,9 +13,14 @@ namespace Software_de_Donaciones
 {
     public partial class Menu_Principal : Form
     {
-        public Menu_Principal()
+        private Inicio ventanainicio = null;
+
+        public Inicio Ventanainicio { get => ventanainicio; set => ventanainicio = value; }
+
+        public Menu_Principal(Inicio ventana)
         {
             InitializeComponent();
+            this.Ventanainicio = ventana;
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
@@ -31,7 +36,20 @@ namespace Software_de_Donaciones
 
         private void boton_enviardonacion_Click(object sender, EventArgs e)
         {
+            Ventana_de_Donaciones nuevaventana = new Ventana_de_Donaciones();
+            nuevaventana.Show();
+        }
 
+        private void boton_cerrarsesion_Click(object sender, EventArgs e)
+        {
+            Ventanainicio.Show();
+            this.Close();
+        }
+
+        private void boton_versubordinados_Click(object sender, EventArgs e)
+        {
+            Lista_de_Subordinados nuevaventana = new Lista_de_Subordinados();
+            nuevaventana.Show();
         }
     }
 }

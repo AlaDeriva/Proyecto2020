@@ -50,6 +50,7 @@
             this.boton_modificarcategoria.TabIndex = 0;
             this.boton_modificarcategoria.Text = "Modificar Categoría";
             this.boton_modificarcategoria.UseVisualStyleBackColor = true;
+            this.boton_modificarcategoria.Click += new System.EventHandler(this.boton_modificarcategoria_Click);
             // 
             // boton_agregarcategoria
             // 
@@ -60,6 +61,7 @@
             this.boton_agregarcategoria.TabIndex = 1;
             this.boton_agregarcategoria.Text = "Agregar Categoría";
             this.boton_agregarcategoria.UseVisualStyleBackColor = true;
+            this.boton_agregarcategoria.Click += new System.EventHandler(this.boton_agregarcategoria_Click);
             // 
             // boton_eliminarcategoria
             // 
@@ -90,6 +92,7 @@
             this.boton_atras.TabIndex = 4;
             this.boton_atras.Text = "Atrás";
             this.boton_atras.UseVisualStyleBackColor = true;
+            this.boton_atras.Click += new System.EventHandler(this.boton_atras_Click);
             // 
             // label1
             // 

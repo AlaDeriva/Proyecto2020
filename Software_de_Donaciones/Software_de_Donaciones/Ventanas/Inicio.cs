@@ -42,9 +42,9 @@ namespace Software_de_Donaciones
         {
             if ( Chequeardatos() )
             {
-                Menu_Principal nuevaventana = new Menu_Principal();
+                Menu_Principal nuevaventana = new Menu_Principal(this);
                 nuevaventana.Show();
-                this.Close();
+                this.Hide();
             }
         }
 

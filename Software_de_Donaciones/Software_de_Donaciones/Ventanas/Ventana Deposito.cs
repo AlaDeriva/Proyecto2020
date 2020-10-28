@@ -34,5 +34,16 @@ namespace Software_de_Donaciones.Ventanas
         {
 
         }
+
+        private void boton_opcionesdecategoria_Click(object sender, EventArgs e)
+        {
+            Opciones_de_Categoria nuevaventana = new Opciones_de_Categoria();
+            nuevaventana.Show();
+        }
+
+        private void boton_iralmenuprincipal_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

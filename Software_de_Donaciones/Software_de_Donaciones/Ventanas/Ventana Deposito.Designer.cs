@@ -58,6 +58,7 @@
             this.boton_iralmenuprincipal.TabIndex = 0;
             this.boton_iralmenuprincipal.Text = "<- Ir al Menú Principal";
             this.boton_iralmenuprincipal.UseVisualStyleBackColor = true;
+            this.boton_iralmenuprincipal.Click += new System.EventHandler(this.boton_iralmenuprincipal_Click);
             // 
             // boton_buscar
             // 
@@ -78,6 +79,7 @@
             this.boton_opcionesdecategoria.TabIndex = 2;
             this.boton_opcionesdecategoria.Text = "Opciones de Categoría";
             this.boton_opcionesdecategoria.UseVisualStyleBackColor = true;
+            this.boton_opcionesdecategoria.Click += new System.EventHandler(this.boton_opcionesdecategoria_Click);
             // 
             // boton_modificardonacion
             // 
