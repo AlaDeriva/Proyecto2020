@@ -1,4 +1,4 @@
-Create Database AlaDerivaSoftware
+ssdwCreate Database AlaDerivaSoftware
 Use AlaDerivaSoftware
 
 
@@ -158,23 +158,49 @@ references Donacion(ID)
 on update cascade
 on delete cascade;
 
+//Chequear de Recibe para abajo
+
 ALTER TABLE Recibe
 add constraint FK_Beneficiaro_Recibe
-Foreign Key (ID_Donacion)
-references (ID_Cliente)
+Foreign Key (ID_Beneficiario)
+references Beneficiario(ID)
 on update cascade
 on delete cascade;
 
-//Falta terminar Recibe
+ALTER TABLE Recibe
+add constraint FK_Recibe_Donacion
+Foreign Key (ID_Donacion)
+references Donacion(ID)
+on update cascade
+on delete cascade;
 
 ALTER TABLE Realiza
-add constraint FK_ _
-Foreign Key (ID_Donacion)
-references (ID_Beneficiario)
+add constraint FK_Beneficiario_Realiza
+Foreign Key (ID_Beneficiario)
+references Beneficiario(ID)
 on update cascade
 on delete cascade;
 
+ALTER TABLE Realiza
+add constraint FK_Realiza_Donacion
+Foreign Key (ID_Donacion)
+references Donacion(ID)
+on update cascade
+on delete cascade;
 
+ALTER TABLE Almacenada
+add constraint FK_Donacion_Almacenada
+Foreign Key (ID_Donacion)
+references Donacion(ID)
+on update cascade
+on delete cascade;
+
+ALTER TABLE Almacenada
+add constraint FK_Almacenada_Deposito
+Foreign Key (ID_Deposito)
+references Deposito(ID)
+on update cascade
+on delete cascade;
 
 
 
