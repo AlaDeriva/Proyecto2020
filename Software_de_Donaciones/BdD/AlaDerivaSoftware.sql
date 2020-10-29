@@ -1,4 +1,4 @@
-ssdwCreate Database AlaDerivaSoftware
+Create Database AlaDerivaSoftware
 Use AlaDerivaSoftware
 
 
