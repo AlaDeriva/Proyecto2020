@@ -11,10 +11,10 @@ sal VARCHAR (100) NOT NULL);
 CREATE TABLE Perfil(
 NombreUsuario VARCHAR (30) NOT NULL PRIMARY KEY,
 CI INT (8) NOT NULL unique,
-Email VARCHAR (12) NOT NULL unique,
+Email VARCHAR (30) NOT NULL unique,
 Nombre VARCHAR (12) NOT NULL,
 Apellido VARCHAR (12) NOT NULL,
-Telefono INT (20) NOT NULL unique);
+Telefono VARCHAR (20) NOT NULL unique);
 
 CREATE TABLE Sesion(
 ID INT (10) NOT NULL PRIMARY KEY AUTO_INCREMENT,
@@ -27,9 +27,9 @@ CI INT (8) NOT NULL unique,
 Tipo ENUM ("Donante", "Destinatario") NOT NULL,
 Nombre VARCHAR (12) NOT NULL,
 Apellido VARCHAR (12) NOT NULL,
-Telefono INT (20) NOT NULL unique,
-Email VARCHAR (12) NOT NULL unique,
-Direccion VARCHAR (12) NOT NULL unique);
+Telefono VARCHAR (20) NOT NULL unique,
+Email VARCHAR (30) NOT NULL unique,
+Direccion VARCHAR (30) NOT NULL unique);
 
 CREATE TABLE Deposito(
 ID INT (10) NOT NULL PRIMARY KEY AUTO_INCREMENT,
@@ -157,8 +157,6 @@ foreign key (Donacion_ID)
 references Donacion(ID)
 on update cascade
 on delete cascade;
-
-//Chequear de Recibe para abajo
 
 ALTER TABLE Recibe
 add constraint FK_Beneficiaro_Recibe
