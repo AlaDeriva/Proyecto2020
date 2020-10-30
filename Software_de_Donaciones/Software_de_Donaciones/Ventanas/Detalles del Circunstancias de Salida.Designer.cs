@@ -55,6 +55,7 @@
             this.boton_atras.TabIndex = 0;
             this.boton_atras.Text = "Atrás";
             this.boton_atras.UseVisualStyleBackColor = true;
+            this.boton_atras.Click += new System.EventHandler(this.boton_atras_Click);
             // 
             // boton_denegar
             // 

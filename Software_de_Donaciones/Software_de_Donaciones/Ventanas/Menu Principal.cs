@@ -37,6 +37,7 @@ namespace Software_de_Donaciones
         private void boton_enviardonacion_Click(object sender, EventArgs e)
         {
             Ventana_de_Donaciones nuevaventana = new Ventana_de_Donaciones();
+
             nuevaventana.Show();
         }
 
@@ -50,6 +51,18 @@ namespace Software_de_Donaciones
         {
             Lista_de_Subordinados nuevaventana = new Lista_de_Subordinados();
             nuevaventana.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Registro_Actual_del_Material_Previo_a_la_Llegada_del_Deposito nuevaventana = new Registro_Actual_del_Material_Previo_a_la_Llegada_del_Deposito();
+            nuevaventana.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Detalles_del_Circunstancias_de_Salida nuevaventana = new Detalles_del_Circunstancias_de_Salida();
+            nuevaventana.ShowDialog();
         }
     }
 }

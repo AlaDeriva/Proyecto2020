@@ -43,6 +43,7 @@
             this.boton_iralmenuprincipal.TabIndex = 0;
             this.boton_iralmenuprincipal.Text = "<- Ir al Menú Principal";
             this.boton_iralmenuprincipal.UseVisualStyleBackColor = true;
+            this.boton_iralmenuprincipal.Click += new System.EventHandler(this.boton_iralmenuprincipal_Click);
             // 
             // boton_informaciondeladonacion
             // 
@@ -53,6 +54,7 @@
             this.boton_informaciondeladonacion.TabIndex = 1;
             this.boton_informaciondeladonacion.Text = "VER INFORMACIÓN DE LA DONACIÓN";
             this.boton_informaciondeladonacion.UseVisualStyleBackColor = true;
+            this.boton_informaciondeladonacion.Click += new System.EventHandler(this.boton_informaciondeladonacion_Click);
             // 
             // label1
             // 

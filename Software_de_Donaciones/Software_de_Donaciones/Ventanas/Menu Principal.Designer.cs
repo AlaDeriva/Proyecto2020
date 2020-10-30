@@ -38,6 +38,8 @@
             this.boton_accederaldeposito = new System.Windows.Forms.Button();
             this.boton_cerrarsesion = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.grp_admin.SuspendLayout();
             this.grp_cliente.SuspendLayout();
             this.grp_encargado.SuspendLayout();
@@ -45,30 +47,32 @@
             // 
             // grp_admin
             // 
+            this.grp_admin.Controls.Add(this.button2);
+            this.grp_admin.Controls.Add(this.button1);
             this.grp_admin.Controls.Add(this.boton_administrardeposito);
             this.grp_admin.Controls.Add(this.boton_versubordinados);
             this.grp_admin.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grp_admin.Location = new System.Drawing.Point(563, 153);
+            this.grp_admin.Location = new System.Drawing.Point(525, 153);
             this.grp_admin.Name = "grp_admin";
-            this.grp_admin.Size = new System.Drawing.Size(225, 285);
+            this.grp_admin.Size = new System.Drawing.Size(263, 285);
             this.grp_admin.TabIndex = 0;
             this.grp_admin.TabStop = false;
             this.grp_admin.Text = "Administrador";
             // 
             // boton_administrardeposito
             // 
-            this.boton_administrardeposito.Location = new System.Drawing.Point(18, 95);
+            this.boton_administrardeposito.Location = new System.Drawing.Point(6, 95);
             this.boton_administrardeposito.Name = "boton_administrardeposito";
-            this.boton_administrardeposito.Size = new System.Drawing.Size(201, 23);
+            this.boton_administrardeposito.Size = new System.Drawing.Size(245, 23);
             this.boton_administrardeposito.TabIndex = 4;
             this.boton_administrardeposito.Text = "Administrar  Deposito";
             this.boton_administrardeposito.UseVisualStyleBackColor = true;
             // 
             // boton_versubordinados
             // 
-            this.boton_versubordinados.Location = new System.Drawing.Point(18, 134);
+            this.boton_versubordinados.Location = new System.Drawing.Point(6, 134);
             this.boton_versubordinados.Name = "boton_versubordinados";
-            this.boton_versubordinados.Size = new System.Drawing.Size(201, 23);
+            this.boton_versubordinados.Size = new System.Drawing.Size(245, 23);
             this.boton_versubordinados.TabIndex = 2;
             this.boton_versubordinados.Text = "Ver Subordinados";
             this.boton_versubordinados.UseVisualStyleBackColor = true;
@@ -148,6 +152,26 @@
             this.label2.TabIndex = 8;
             this.label2.Text = "Bienvenido Usuario ";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(6, 192);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(245, 23);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "Registro actual de la llegada al deposito";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(6, 163);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(245, 23);
+            this.button2.TabIndex = 6;
+            this.button2.Text = "Registro actual de la salida al deposito";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Menu_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -180,5 +204,7 @@
         private System.Windows.Forms.Button boton_accederaldeposito;
         private System.Windows.Forms.Button boton_cerrarsesion;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
     }
 }

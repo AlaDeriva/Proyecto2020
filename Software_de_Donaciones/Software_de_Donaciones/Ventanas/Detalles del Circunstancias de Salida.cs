@@ -21,5 +21,10 @@ namespace Software_de_Donaciones.Ventanas
         {
 
         }
+
+        private void boton_atras_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -171,6 +171,7 @@
             this.boton_atras.TabIndex = 11;
             this.boton_atras.Text = "Atràs";
             this.boton_atras.UseVisualStyleBackColor = true;
+            this.boton_atras.Click += new System.EventHandler(this.boton_atras_Click);
             // 
             // boton_autorizar
             // 
