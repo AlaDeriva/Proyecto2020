@@ -86,6 +86,7 @@
             this.texto_contraseña.Name = "texto_contraseña";
             this.texto_contraseña.Size = new System.Drawing.Size(144, 20);
             this.texto_contraseña.TabIndex = 4;
+            this.texto_contraseña.UseSystemPasswordChar = true;
             // 
             // texto_usuario
             // 

@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.grp_admin = new System.Windows.Forms.GroupBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.boton_administrardeposito = new System.Windows.Forms.Button();
             this.boton_versubordinados = new System.Windows.Forms.Button();
             this.grp_cliente = new System.Windows.Forms.GroupBox();
@@ -38,8 +40,6 @@
             this.boton_accederaldeposito = new System.Windows.Forms.Button();
             this.boton_cerrarsesion = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.grp_admin.SuspendLayout();
             this.grp_cliente.SuspendLayout();
             this.grp_encargado.SuspendLayout();
@@ -58,6 +58,26 @@
             this.grp_admin.TabIndex = 0;
             this.grp_admin.TabStop = false;
             this.grp_admin.Text = "Administrador";
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(6, 163);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(245, 23);
+            this.button2.TabIndex = 6;
+            this.button2.Text = "Registro actual de la salida del deposito";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(6, 192);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(245, 23);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "Registro actual de la llegada al deposito";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // boton_administrardeposito
             // 
@@ -151,26 +171,6 @@
             this.label2.Size = new System.Drawing.Size(275, 31);
             this.label2.TabIndex = 8;
             this.label2.Text = "Bienvenido Usuario ";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(6, 192);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(245, 23);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Registro actual de la llegada al deposito";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(6, 163);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(245, 23);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "Registro actual de la salida al deposito";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Menu_Principal
             // 

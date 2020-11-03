@@ -21,5 +21,87 @@ namespace Software_de_Donaciones
         {
             this.Close();
         }
+
+        private void boton_donar_Click(object sender, EventArgs e)
+        {
+            if (!(Categoriadonacion_despliegue.SelectedItem is null))
+            {
+                if (nombreproducto_texto.Text.Length > 0)
+                {
+                    if (cantidad_texto.Text.Length > 0)
+                    {
+                        if (empresa_texto.Text.Length > 0)
+                        {
+                            if (ciusuario_texto.Text.Length > 0)
+                            {
+                                if (ciusuario_texto.Text.Length > 8)
+                                {
+                                    if (direccion_texto.Text.Length > 0)
+                                    {
+                                        if (cideldestinatario_texto.Text.Length > 0)
+                                        {
+                                            if (cideldestinatario_texto.Text.Length > 8)
+                                            {
+                                                if (telefonodeldest_texto.Text.Length > 0)
+                                                {
+                                                    if (esfragil_texto.Text.Length > 0)
+                                                    {
+
+                                                    }
+                                                    else
+                                                    {
+                                                        MessageBox.Show("¿Es fragil?");
+                                                    }
+                                                }
+                                                else
+                                                {
+                                                    MessageBox.Show("Introduzca el teléfono del destinatario");
+                                                }
+                                            }
+                                            else
+                                            {
+                                                MessageBox.Show("La C.I del destinatario debe tener al menos 8 digitos");
+                                            }
+                                        }
+                                        else
+                                        {
+                                            MessageBox.Show("Introduzca la C.I del destinatario");
+                                        }
+                                    }
+                                    else
+                                    {
+                                        MessageBox.Show("Introduzca su direccion");
+                                    }
+                                }
+                                else
+                                {
+                                    MessageBox.Show("La C.I debe tener al menos 8 digitos");
+                                }
+                            }
+                            else
+                            {
+                                MessageBox.Show("Introduzca la C.I del usuario");
+                            }
+                        }
+                        else
+                        {
+                            MessageBox.Show("Introduzca el nombre de la empresa");
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Introduzca la cantidad");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Introduzca el nombre del producto");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Elija la categoria de la donacion");
+            }
+        }
     }
 }

@@ -45,5 +45,11 @@ namespace Software_de_Donaciones.Ventanas
         {
             this.Close();
         }
+
+        private void dgv_datosdeposito_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            boton_eliminardonacion.Enabled = true;
+            boton_modificardonacion.Enabled = true;
+        }
     }
 }

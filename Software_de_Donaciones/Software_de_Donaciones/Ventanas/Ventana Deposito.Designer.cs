@@ -36,7 +36,6 @@
             this.boton_agregardonacion = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.dgv_datosdeposito = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -63,7 +62,7 @@
             // boton_buscar
             // 
             this.boton_buscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.boton_buscar.Location = new System.Drawing.Point(646, 76);
+            this.boton_buscar.Location = new System.Drawing.Point(646, 66);
             this.boton_buscar.Name = "boton_buscar";
             this.boton_buscar.Size = new System.Drawing.Size(75, 23);
             this.boton_buscar.TabIndex = 1;
@@ -73,7 +72,7 @@
             // boton_opcionesdecategoria
             // 
             this.boton_opcionesdecategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.boton_opcionesdecategoria.Location = new System.Drawing.Point(237, 383);
+            this.boton_opcionesdecategoria.Location = new System.Drawing.Point(646, 383);
             this.boton_opcionesdecategoria.Name = "boton_opcionesdecategoria";
             this.boton_opcionesdecategoria.Size = new System.Drawing.Size(131, 38);
             this.boton_opcionesdecategoria.TabIndex = 2;
@@ -83,8 +82,9 @@
             // 
             // boton_modificardonacion
             // 
+            this.boton_modificardonacion.Enabled = false;
             this.boton_modificardonacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.boton_modificardonacion.Location = new System.Drawing.Point(657, 383);
+            this.boton_modificardonacion.Location = new System.Drawing.Point(158, 383);
             this.boton_modificardonacion.Name = "boton_modificardonacion";
             this.boton_modificardonacion.Size = new System.Drawing.Size(131, 38);
             this.boton_modificardonacion.TabIndex = 3;
@@ -93,8 +93,9 @@
             // 
             // boton_eliminardonacion
             // 
+            this.boton_eliminardonacion.Enabled = false;
             this.boton_eliminardonacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.boton_eliminardonacion.Location = new System.Drawing.Point(444, 383);
+            this.boton_eliminardonacion.Location = new System.Drawing.Point(295, 383);
             this.boton_eliminardonacion.Name = "boton_eliminardonacion";
             this.boton_eliminardonacion.Size = new System.Drawing.Size(131, 38);
             this.boton_eliminardonacion.TabIndex = 4;
@@ -126,25 +127,16 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(166, 66);
+            this.label2.Location = new System.Drawing.Point(240, 67);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(274, 15);
+            this.label2.Size = new System.Drawing.Size(200, 15);
             this.label2.TabIndex = 7;
-            this.label2.Text = "Buscar Producto por Nombre o Categoria:";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(446, 56);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(177, 21);
-            this.comboBox1.TabIndex = 9;
+            this.label2.Text = "Buscar Producto por Nombre :";
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(444, 99);
+            this.textBox1.Location = new System.Drawing.Point(446, 66);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(179, 20);
             this.textBox1.TabIndex = 10;
@@ -163,8 +155,10 @@
             this.dgv_datosdeposito.Location = new System.Drawing.Point(33, 125);
             this.dgv_datosdeposito.MultiSelect = false;
             this.dgv_datosdeposito.Name = "dgv_datosdeposito";
+            this.dgv_datosdeposito.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgv_datosdeposito.Size = new System.Drawing.Size(743, 252);
             this.dgv_datosdeposito.TabIndex = 11;
+            this.dgv_datosdeposito.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_datosdeposito_CellClick);
             // 
             // Column1
             // 
@@ -208,7 +202,6 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.dgv_datosdeposito);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.boton_agregardonacion);
@@ -236,7 +229,6 @@
         private System.Windows.Forms.Button boton_agregardonacion;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.DataGridView dgv_datosdeposito;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
