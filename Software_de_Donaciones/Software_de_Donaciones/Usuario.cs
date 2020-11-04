@@ -65,5 +65,7 @@ namespace Software_de_Donaciones
         public string NUsuario { get => nUsuario; set => nUsuario = value; }
         public string Hash { get => hash; set => hash = value; }
         public string Sal { get => sal; set => sal = value; }
+
+
     }
 }

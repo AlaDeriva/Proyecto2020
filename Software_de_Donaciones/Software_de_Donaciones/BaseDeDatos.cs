@@ -9,7 +9,7 @@ namespace Software_de_Donaciones
         {
         }
 
-        private MySqlConnection CrearConexion(string servidor, string bdd, string usuario, string passwd)
+        public MySqlConnection CrearConexion(string servidor, string bdd, string usuario, string passwd)
         {
             MySqlConnection conexion;
             //Creamos el objeto de conexión
