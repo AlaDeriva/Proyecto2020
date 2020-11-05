@@ -50,7 +50,8 @@ ID INT (10) NOT NULL PRIMARY KEY AUTO_INCREMENT,
 Cantidad INT (4) NOT NULL,
 Destino VARCHAR (20) NOT NULL unique,
 Fecha_Hora_Envio TIMESTAMP NOT NULL default current_timestamp,
-Fecha_Hora_Entrega TIMESTAMP NOT NULL default current_timestamp);
+Fecha_Hora_Entrega TIMESTAMP NOT NULL default current_timestamp
+Categoria ENUM ("Comida","Dinero","Ropa","Miscélaneo") NOT NULL default "Miscélaneo");
 
 CREATE TABLE Tiene(
 NombreUsuario_Usuario VARCHAR (30) NOT NULL PRIMARY KEY,
