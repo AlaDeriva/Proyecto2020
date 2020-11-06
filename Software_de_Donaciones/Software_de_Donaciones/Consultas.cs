@@ -8,12 +8,31 @@ namespace Software_de_Donaciones
 
         public Consultas()
         {
+            this.iPservidor = utilesXML.LeerConfig(archivoConfig, "IPServidor");
+            this.bddAUsar = utilesXML.LeerConfig(archivoConfig, "BDD");
+            this.usuarioBD = utilesXML.LeerConfig(archivoConfig, "UsuarioBD");
+            this.contraseniaBD = utilesXML.LeerConfig(archivoConfig, "ContraseniaBD");
+            //Leemos los datos de configuración para acceder a la base de datos
+
         }
+
+        private UtilesXML utilesXML = new UtilesXML();
+        //Objeto para leer los datos de configuración
+
+        private readonly string archivoConfig = "configuracion.xml";
+        //Archivo con los datos de configuración
+
+        private string iPservidor = "";
+        private string bddAUsar = "";
+        private string usuarioBD = "";
+        private string contraseniaBD = "";
+        //Variables para almacenar los datos de conexión con la base de datos
+
 
         public bool UsuarioExiste(Usuario usuario)
         {
             bool Resultado = false;
-            MySqlConnection conexion = bdd.CrearConexion(servidor,bdd,usuario,passwd);
+            MySqlConnection conexion = bdd.CrearConexion(iPservidor,bddAUsar,usuarioBD,contraseniaBD);
 
             string Consulta =
             "SELECT count(*) FROM Usuario WHERE NombreUsuario = @NUsuario";
@@ -54,6 +73,14 @@ namespace Software_de_Donaciones
             }
 
             return Resultado;
-        } 
+        }
+
+        public string TokensDeUsuario(Usuario usuario)
+        {
+            string ResultadoDeToken;
+
+             
+        }
+
     }
 }

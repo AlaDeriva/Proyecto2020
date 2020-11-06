@@ -1,1 +1,10 @@
 /home/ceibal/Documentos/GitHub/Proyecto2020/Software_de_Donaciones/Software_de_Donaciones/obj/x86/Debug/Software_de_Donaciones.csprojAssemblyReference.cache
+/home/ceibal/Documentos/GitHub/AlaDeriva/Software_de_Donaciones/Software_de_Donaciones/obj/x86/Debug/Software_de_Donaciones.csprojAssemblyReference.cache
+/home/ceibal/Documentos/GitHub/AlaDeriva/Software_de_Donaciones/Software_de_Donaciones/obj/x86/Debug/Software_de_Donaciones.Inicio.resources
+/home/ceibal/Documentos/GitHub/AlaDeriva/Software_de_Donaciones/Software_de_Donaciones/obj/x86/Debug/Software_de_Donaciones.Lista_de_Subordinados.resources
+/home/ceibal/Documentos/GitHub/AlaDeriva/Software_de_Donaciones/Software_de_Donaciones/obj/x86/Debug/Software_de_Donaciones.Menu_Principal.resources
+/home/ceibal/Documentos/GitHub/AlaDeriva/Software_de_Donaciones/Software_de_Donaciones/obj/x86/Debug/Software_de_Donaciones.Registro.resources
+/home/ceibal/Documentos/GitHub/AlaDeriva/Software_de_Donaciones/Software_de_Donaciones/obj/x86/Debug/Software_de_Donaciones.Regristro_de_Usuario_de_la_Empresa.resources
+/home/ceibal/Documentos/GitHub/AlaDeriva/Software_de_Donaciones/Software_de_Donaciones/obj/x86/Debug/Software_de_Donaciones.Ventana_de_Donaciones.resources
+/home/ceibal/Documentos/GitHub/AlaDeriva/Software_de_Donaciones/Software_de_Donaciones/obj/x86/Debug/Software_de_Donaciones.csproj.GenerateResource.cache
+/home/ceibal/Documentos/GitHub/AlaDeriva/Software_de_Donaciones/Software_de_Donaciones/obj/x86/Debug/Software_de_Donaciones.csproj.CoreCompileInputs.cache
