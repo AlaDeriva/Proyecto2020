@@ -12,6 +12,7 @@ namespace Software_de_Donaciones
 {
     public partial class Ventana_de_Donaciones : Form
     {
+       
         public Ventana_de_Donaciones()
         {
             InitializeComponent();
@@ -46,6 +47,13 @@ namespace Software_de_Donaciones
                                                 {
                                                     if (esfragil_texto.Text.Length > 0)
                                                     {
+                                                       
+
+
+
+
+
+
 
                                                     }
                                                     else
@@ -103,5 +111,12 @@ namespace Software_de_Donaciones
                 MessageBox.Show("Elija la categoria de la donacion");
             }
         }
+
+        private void Ventana_de_Donaciones_Load(object sender, EventArgs e)
+        {
+            
+        }
+       
+
     }
 }

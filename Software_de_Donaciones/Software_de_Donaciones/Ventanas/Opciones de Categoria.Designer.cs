@@ -34,17 +34,18 @@
             this.boton_buscar = new System.Windows.Forms.Button();
             this.boton_atras = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // boton_modificarcategoria
             // 
             this.boton_modificarcategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.boton_modificarcategoria.Location = new System.Drawing.Point(657, 380);
+            this.boton_modificarcategoria.Location = new System.Drawing.Point(657, 326);
             this.boton_modificarcategoria.Name = "boton_modificarcategoria";
             this.boton_modificarcategoria.Size = new System.Drawing.Size(131, 41);
             this.boton_modificarcategoria.TabIndex = 0;
@@ -55,7 +56,7 @@
             // boton_agregarcategoria
             // 
             this.boton_agregarcategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.boton_agregarcategoria.Location = new System.Drawing.Point(12, 380);
+            this.boton_agregarcategoria.Location = new System.Drawing.Point(12, 326);
             this.boton_agregarcategoria.Name = "boton_agregarcategoria";
             this.boton_agregarcategoria.Size = new System.Drawing.Size(131, 41);
             this.boton_agregarcategoria.TabIndex = 1;
@@ -66,12 +67,13 @@
             // boton_eliminarcategoria
             // 
             this.boton_eliminarcategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.boton_eliminarcategoria.Location = new System.Drawing.Point(336, 380);
+            this.boton_eliminarcategoria.Location = new System.Drawing.Point(336, 326);
             this.boton_eliminarcategoria.Name = "boton_eliminarcategoria";
             this.boton_eliminarcategoria.Size = new System.Drawing.Size(131, 41);
             this.boton_eliminarcategoria.TabIndex = 2;
             this.boton_eliminarcategoria.Text = "Eliminar  Categoría";
             this.boton_eliminarcategoria.UseVisualStyleBackColor = true;
+            this.boton_eliminarcategoria.Click += new System.EventHandler(this.boton_eliminarcategoria_Click);
             // 
             // boton_buscar
             // 
@@ -82,6 +84,7 @@
             this.boton_buscar.TabIndex = 3;
             this.boton_buscar.Text = "Buscar";
             this.boton_buscar.UseVisualStyleBackColor = true;
+            this.boton_buscar.Click += new System.EventHandler(this.boton_buscar_Click);
             // 
             // boton_atras
             // 
@@ -104,31 +107,21 @@
             this.label1.TabIndex = 5;
             this.label1.Text = "Opciones de Categoría";
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 355);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(297, 16);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Capacidad y lugar Utilizado del Deposito:";
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(206, 96);
+            this.label3.Location = new System.Drawing.Point(249, 75);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(427, 20);
+            this.label3.Size = new System.Drawing.Size(285, 20);
             this.label3.TabIndex = 7;
-            this.label3.Text = "Nombres de la Categoría o de la Categoría buscada:";
+            this.label3.Text = "Nombres de la Categoría buscada:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(159, 54);
+            this.label4.Location = new System.Drawing.Point(159, 49);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(171, 13);
             this.label4.TabIndex = 8;
@@ -146,21 +139,39 @@
             // 
             this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(12, 131);
+            this.listBox1.Location = new System.Drawing.Point(12, 98);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(776, 212);
             this.listBox1.TabIndex = 10;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            // 
+            // textBox2
+            // 
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(629, 373);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(159, 20);
+            this.textBox2.TabIndex = 11;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(12, 373);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(159, 20);
+            this.textBox3.TabIndex = 12;
             // 
             // Opciones_de_Categoria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.boton_atras);
             this.Controls.Add(this.boton_buscar);
@@ -169,6 +180,7 @@
             this.Controls.Add(this.boton_modificarcategoria);
             this.Name = "Opciones_de_Categoria";
             this.Text = "Opciones_de_Categoria";
+            this.Load += new System.EventHandler(this.Opciones_de_Categoria_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -182,10 +194,11 @@
         private System.Windows.Forms.Button boton_buscar;
         private System.Windows.Forms.Button boton_atras;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
     }
 }

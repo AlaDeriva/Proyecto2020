@@ -208,7 +208,7 @@
             this.boton_donar.Name = "boton_donar";
             this.boton_donar.Size = new System.Drawing.Size(154, 23);
             this.boton_donar.TabIndex = 18;
-            this.boton_donar.Text = "Donar";
+            this.boton_donar.Text = "Agregar Donacion";
             this.boton_donar.UseVisualStyleBackColor = true;
             this.boton_donar.Click += new System.EventHandler(this.boton_donar_Click);
             // 
@@ -269,20 +269,13 @@
             this.Controls.Add(this.nombreproducto_texto);
             this.Name = "Ventana_de_Donaciones";
             this.Text = "Ventana_de_Donaciones";
+            this.Load += new System.EventHandler(this.Ventana_de_Donaciones_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox nombreproducto_texto;
-        private System.Windows.Forms.TextBox cantidad_texto;
-        private System.Windows.Forms.TextBox empresa_texto;
-        private System.Windows.Forms.TextBox telefonodeldest_texto;
-        private System.Windows.Forms.TextBox cideldestinatario_texto;
-        private System.Windows.Forms.TextBox direccion_texto;
-        private System.Windows.Forms.TextBox ciusuario_texto;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -294,8 +287,15 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button boton_atras;
         private System.Windows.Forms.Button boton_donar;
-        private System.Windows.Forms.TextBox esfragil_texto;
-        private System.Windows.Forms.ComboBox Categoriadonacion_despliegue;
         private System.Windows.Forms.Label label9;
+        public System.Windows.Forms.TextBox nombreproducto_texto;
+        public System.Windows.Forms.TextBox cantidad_texto;
+        public System.Windows.Forms.TextBox empresa_texto;
+        public System.Windows.Forms.TextBox telefonodeldest_texto;
+        public System.Windows.Forms.TextBox cideldestinatario_texto;
+        public System.Windows.Forms.TextBox direccion_texto;
+        public System.Windows.Forms.TextBox ciusuario_texto;
+        public System.Windows.Forms.TextBox esfragil_texto;
+        public System.Windows.Forms.ComboBox Categoriadonacion_despliegue;
     }
 }

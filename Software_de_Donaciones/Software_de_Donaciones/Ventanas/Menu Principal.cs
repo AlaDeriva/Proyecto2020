@@ -38,7 +38,7 @@ namespace Software_de_Donaciones
         {
             Ventana_de_Donaciones nuevaventana = new Ventana_de_Donaciones();
 
-            nuevaventana.Show();
+            nuevaventana.ShowDialog();
         }
 
         private void boton_cerrarsesion_Click(object sender, EventArgs e)
@@ -50,7 +50,7 @@ namespace Software_de_Donaciones
         private void boton_versubordinados_Click(object sender, EventArgs e)
         {
             Lista_de_Subordinados nuevaventana = new Lista_de_Subordinados();
-            nuevaventana.Show();
+            nuevaventana.ShowDialog();
         }
 
         private void button1_Click(object sender, EventArgs e)
